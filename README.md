@@ -20,19 +20,9 @@ Personally, I'm not trying to perform pure livecode sets, but rather, learn live
 
 TODO: add link to some curated videos
 
-## Well-rounded introductions
-
-Choose your poison if you'd like a well-rounded introduction.
-
-* [TOPLAP has a great introduction.](http://toplap.org/about/) Just don't get overwhelmed by how many choices there are :) The key is to Just Pick Something and Start Playing.
-* [Joseph Wilk, "Live Coding - Repl Electric"](http://blog.josephwilk.net/art/live-coding-repl-electric.html)
-* [Wikipedia: "Live coding"](https://en.wikipedia.org/wiki/Live_coding)
-
-Need help narrowing down? Here's what I like ...
-
 ## My personal, stripped down primer
 
-Here are my main environments/languages of interest, in audio livecoding, so far
+Here's an introduction that doesn't cover _everything_, but covers my personal interests. Filtering down for you so hopefully you don't get overwhelmed.
 
 0. [TinyRave](http://tinyrave.com/tracks/47-maple-leaf-rag) is a pure-JS livecoding environment, with a website to field contributions. Nice first thing to check out since it runs flawlessly in your browser, and JavaScript is familiar.
 0. [SuperCollider](http://supercollider.github.io/) "is an environment and programming language originally released in 1996 by James McCartney for real-time audio synthesis and algorithmic composition" ([Wikipedia: "SuperCollider"](https://en.wikipedia.org/wiki/SuperCollider)). SuperCollider comprises a realtime audio engine (server) and a C-like client language (client). Sonic Pi and Overtone are two popular clients these days. I didn't like the SuperCollider client language so much, so I moved onto Sonic Pi ...
@@ -44,23 +34,29 @@ Here are my main environments/languages of interest, in audio livecoding, so far
       2. [The paper about it, by creator Alex McLean (yaxu)](https://raw.githubusercontent.com/yaxu/Tidal/master/doc/farm/farm.pdf)
       3. Tidal can be hard to install, so at first, you may want to use [this Docker image](https://github.com/DoubleDensity/tidebox) (or [this fork, which is set up for MIDI rather than audio](https://github.com/lvm/tida1vm))
 
-So far my taste is for Sonic Pi for a more malleable thing (it was easier for me to pick up), and Tidal for GETTIN WEIRD and making cool drum patterns
+How I think of Sonic Pi vs. Tidal for my needs
+
+- Sonic Pi for a more malleable thing (easier for me to pick up and be intentional about)
+- Tidal for GETTIN' WEIRD and making cool drum patterns (more surprises)
 
 ## More resources
 
-* General/alltools
-  * [Join TOPLAP on Slack](http://toplap.org/toplap-on-slack/)
+* Overviews, communities...
+  * [TOPLAP has a great introduction to livecoding overall.](http://toplap.org/about/) Just don't get overwhelmed by how many choices there are :) The key is to Just Pick Something and Start Playing.
+  * [Joseph Wilk, "Live Coding - Repl Electric," an exuberant tour of a few things](http://blog.josephwilk.net/art/live-coding-repl-electric.html)
+  * [Wikipedia: "Live coding" for that encyclopedic perspective](https://en.wikipedia.org/wiki/Live_coding)
+  * [Join TOPLAP on Slack](http://toplap.org/toplap-on-slack/): good community, also you can just learn a lot by being a fly on the wall
   * [Various more environments shouted out in this HN thread](https://news.ycombinator.com/item?id=11054319).
 * Max/MSP and Pure Data ... _not textual_ like many of these other things, though
-  * [The difference](https://puredata.info/docs/faq/pdmaxjmax)
-  * I prefer Max/MSP because of integration with Ableton Live via Max4Live
+  * [The difference between Max and Pd](https://puredata.info/docs/faq/pdmaxjmax)
+  * I prefer Max/MSP because of integration with Ableton Live via [Max4Live](https://www.ableton.com/en/live/max-for-live/)
   * PureData is open-source and truly free
 * Browser-based (mainly these are just novelties ... not fully capable)
   * [musiclab.chromeexperiments.com](https://musiclab.chromeexperiments.com/Experiments)
   * [TinyRave](http://tinyrave.com/tracks/47-maple-leaf-rag)
   * [studio.substack.net](http://studio.substack.net/-/recent) (TURN YOUR SPEAKERS DOWN)
-* [Raspberry Pi with other stuff (not just Sonic Pi)](https://www.raspberrypi.org/blog/pi-synthesisers/)
-* Supercollider, Sonic Pi, Overtone
+* You can put Sonic Pi on a Raspberry Pi. You can also do [other audio stuff](https://www.raspberrypi.org/blog/pi-synthesisers/)
+* Supercollider & Sonic Pi
   * ["Aerodynamic" by Daft Punk: tutorial to recreate it in Sonic Pi](https://aimxhaisse.com/aerodynamic-en.html)
   * [sc140](http://supercollider.github.io/community/sc140), basically "Supercollider Golf," a series of compositions in <= 140 chars of Supercollider code
 * Tidal
