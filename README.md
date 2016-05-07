@@ -2,7 +2,7 @@
 
 This doc is for [a workshop at Dadaconf 0.1](http://dadaconf.com/workshops.html). The workshop focuses on livecoding and using text-based environments to produce sound and music. We may also get into livecoding using text-based environments to produce visuals.
 
-Presented by [hangtwenty](https://github.com/hangtwenty) -- sound seciton -- and [kevincairo](https://github.com/kevincairo) -- visuals section.
+Sounds section is by [hangtwenty](https://github.com/hangtwenty) and the way cooler visuals section is by  [kevincairo](https://github.com/kevincairo).
 
 # [Livecoding](https://en.wikipedia.org/wiki/Live_coding) to produce **sound**
 
@@ -27,11 +27,13 @@ You can see a whole bunch here, [TOPLAP.org](http://toplap.org/); or here are a 
   * [a promo video by yaxu, that I found easy to follow :)](https://youtu.be/au65p9oRJqI?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=125)
   * [more yaxu](https://youtu.be/FenTeBMkAsQ?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=186)
 
-## My personal, stripped down primer
+## My recommendations
+
+I suggest you try Sonic Pi first. Here's info on Sonic Pi and some other items, to help you break into this interesting world.
 
 Here's an introduction that doesn't cover _everything_, but covers my personal interests. Filtering down for you so hopefully you don't get overwhelmed.
 
-0. [TinyRave](http://tinyrave.com/tracks/47-maple-leaf-rag) is a pure-JS livecoding environment, with a website to field contributions. Nice first thing to check out since it runs flawlessly in your browser, and JavaScript is familiar.
+0. For instant gratification, check out [TinyRave](http://tinyrave.com/tracks/47-maple-leaf-rag), a pure-JS livecoding environment, with a website to field contributions. Runs in your browser!
 0. [SuperCollider](http://supercollider.github.io/) "is an environment and programming language originally released in 1996 by James McCartney for real-time audio synthesis and algorithmic composition" ([Wikipedia: "SuperCollider"](https://en.wikipedia.org/wiki/SuperCollider)). SuperCollider comprises a realtime audio engine (server) and a C-like client language (client). Sonic Pi and Overtone are two popular clients these days. I didn't like the SuperCollider client language so much, so I moved onto Sonic Pi ...
 1. **[Sonic Pi](http://sonic-pi.net/).** It's a different client language for the SuperCollider engine (plus some stuff, like some useful synth presets). The language is inspired by Ruby and Python. [You can put Sonic Pi on a Raspberry Pi](https://www.raspberrypi.org/documentation/usage/sonic-pi/), making it a great project for classrooms etc. It's easy to pick up, but [it's not just a toy.](https://github.com/josephwilk/sonic-pi-examples) Created and mainly maintained by [Sam Aaron, who you can see presenting on it](https://www.youtube.com/watch?v=ENfyOndcvP0).
 2. If/when you want to try something else ...
