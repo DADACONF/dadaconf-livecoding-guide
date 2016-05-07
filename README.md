@@ -2,7 +2,12 @@
 
 This doc is for [a workshop at Dadaconf 0.1](http://dadaconf.com/workshops.html). The workshop focuses on livecoding and using text-based environments to produce sound and music. We may also get into livecoding using text-based environments to produce visuals.
 
-Sounds section is by [hangtwenty](https://github.com/hangtwenty) and the way cooler visuals section is by  [kevincairo](https://github.com/kevincairo).
+Two sections...
+
+1) Livecoding to produce sound — by [hangtwenty](https://github.com/hangtwenty). Sonic Pi and such.
+2) Livecoding to produce visuals — by [kevincairo](https://github.com/kevincairo). Shaders and such.
+
+Both sections have options for in-browser stuff, and easy installation stuff :)
 
 # [Livecoding](https://en.wikipedia.org/wiki/Live_coding) to produce **sound**
 
