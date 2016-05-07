@@ -2,6 +2,8 @@
 
 This doc is for [a workshop at Dadaconf 0.1](http://dadaconf.com/workshops.html). The workshop focuses on livecoding and using text-based environments to produce sound and music. We may also get into livecoding using text-based environments to produce visuals.
 
+Presented by [hangtwenty](https://github.com/hangtwenty) -- sound seciton -- and [kevincairo](https://github.com/kevincairo) -- visuals section.
+
 # [Livecoding](https://en.wikipedia.org/wiki/Live_coding) to produce **sound**
 
 I was introduced to "programming to produce sound" by learning some [Max](https://en.wikipedia.org/wiki/Max_(software)) (as in "Max/MSP" and ["Max4Live"](https://www.ableton.com/en/live/max-for-live/)). (Related: [Pure Data aka Pd](https://en.wikipedia.org/wiki/Pure_Data).) These platforms are useful, and I use plugins written in Max4Live _every day_. Awesome stuff. Max and Pd are both visual programming languages.
