@@ -150,7 +150,7 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
 
 ### Environments
 
-* [The_Force](http://shawnlawson.github.io/The_Force/)
+* **[The_Force](http://shawnlawson.github.io/The_Force/)**
   * browser-based environment for livecoding OpenGL/WebGL Fragment shaders with some cool built-in functions for integrating with audio input
   * [examples](https://github.com/shawnlawson/The_Force_Workshop)
   * Great for a two person operation (or one human + pre-arranged audio)
