@@ -16,9 +16,14 @@ Personally, I'm not trying to perform pure livecode sets, but rather, learn live
 
 ## Some music livecoding videos
 
-[TOPLAP.org](http://toplap.org/)
+You can see a whole bunch here, [TOPLAP.org](http://toplap.org/); or here are a couple highlights:
 
-TODO: add link to some curated videos
+* Sonic Pi:
+  * [a bitta dub techno](https://www.youtube.com/watch?v=a1RxpJkvqpY)
+  * [some ambient](https://www.youtube.com/watch?v=5fwGHAdoaXA&index=1&list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n)
+* Tidal:
+  * [a promo video by yaxu, that I found easy to follow :)](https://youtu.be/au65p9oRJqI?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=125)
+  * [more yaxu](https://youtu.be/FenTeBMkAsQ?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=186)
 
 ## My personal, stripped down primer
 
@@ -36,8 +41,8 @@ Here's an introduction that doesn't cover _everything_, but covers my personal i
 
 How I think of Sonic Pi vs. Tidal for my needs
 
-- Sonic Pi for a more malleable thing (easier for me to pick up and be intentional about)
-- Tidal for GETTIN' WEIRD and making cool drum patterns (more surprises)
+* Sonic Pi for a more malleable thing (easier for me to pick up and be intentional about)
+* Tidal for GETTIN' WEIRD and making cool drum patterns (more surprises)
 
 ## More resources
 
@@ -62,7 +67,7 @@ How I think of Sonic Pi vs. Tidal for my needs
 * Tidal
   * [kindohm's tidal-pattern-every-day tumblr](http://365tidalpatterns.tumblr.com/) has gone past 365 now!
   * [yaxu's "patternlib" of Tidal patterns, that he released along with a recent release](http://slab.org/tmp/patternlib/)
-* aaand a big unorganized [list of livecoding environments](http://toplap.org/wiki/ToplapSystems)
+* aaand a big ol' [list of livecoding environments](http://toplap.org/wiki/ToplapSystems)
  
 ----
 
