@@ -29,6 +29,7 @@ You can see a whole bunch here, [TOPLAP.org](http://toplap.org/); or here are a 
 * Tidal:
   * [a promo video by yaxu, that I found easy to follow :)](https://youtu.be/au65p9oRJqI?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=125)
   * [more yaxu](https://youtu.be/FenTeBMkAsQ?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=186)
+  * [many tidal videos on the Tidal website](http://tidalcycles.org/videos.html)
 
 ## My recommendations
 
