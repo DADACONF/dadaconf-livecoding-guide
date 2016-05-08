@@ -150,7 +150,7 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
 
 ### Environments
 
-* **[The_Force](https://shawnlawson.github.io/The_Force/)**
+* **[The_Force](https://shawnlawson.github.io/The_Force/)** -- **make sure you use HTTPS,** at the time of writing Microphone Input will only work with HTTPS. You want that!!!
   * browser-based environment for livecoding OpenGL/WebGL Fragment shaders with some cool built-in functions for integrating with audio input
   * [examples](https://github.com/shawnlawson/The_Force_Workshop)
   * [more examples](https://github.com/shawnlawson/The_Force/tree/c3d7aa28cca1fd5e7f64a5809a649d95fda9ccc1/shaderExperiments)
@@ -237,3 +237,5 @@ Now, let's react to it! The `bands` variable is a built-in `vec4` variable which
 * `bands.z` is the level of the high frequencies
 
 We can then plug any of these components into the place of a `float` value in the program! For example, try replacing the `fgRatio` value with something like `bands.w` to make the `g` pattern pulse in on the bass thump!
+
+You can use microphone input too :)
