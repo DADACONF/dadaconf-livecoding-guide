@@ -150,7 +150,7 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
 
 ### Environments
 
-* **[The_Force](http://shawnlawson.github.io/The_Force/)**
+* **[The_Force](https://shawnlawson.github.io/The_Force/)**
   * browser-based environment for livecoding OpenGL/WebGL Fragment shaders with some cool built-in functions for integrating with audio input
   * [examples](https://github.com/shawnlawson/The_Force_Workshop)
   * [more examples](https://github.com/shawnlawson/The_Force/tree/c3d7aa28cca1fd5e7f64a5809a649d95fda9ccc1/shaderExperiments)
@@ -167,7 +167,7 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
 This is the moment _I_ have been waiting for. The_Force is the funnest way to produce visuals in my experience, but there are other options that may be worth exploring depending on synergies they might have with other technologies you are using.
 
 #### Example
-Let's start playing! Just copy the following snippet into [The_Force](http://shawnlawson.github.io/The_Force/) and it should start with a static pattern. Uncomment the commented code to change the variables and see the results. Hopefully you'll start to see the way the values are interacting to bring the expected results.
+Let's start playing! Just copy the following snippet into [The_Force](https://shawnlawson.github.io/The_Force/) and it should start with a static pattern. Uncomment the commented code to change the variables and see the results. Hopefully you'll start to see the way the values are interacting to bring the expected results.
 ```
 void main () {
     // the pixel position we're drawing (relative to bottom-left, width and height range from 0.0 to 1.0)
