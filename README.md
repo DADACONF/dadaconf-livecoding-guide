@@ -48,7 +48,7 @@ Here's an introduction that doesn't cover _everything_, but covers my personal i
 
 How I think of Sonic Pi vs. Tidal for my needs
 
-* Sonic Pi for a more malleable thing (easier for me to pick up and be intentional about)
+* Sonic Pi for a more malleable thing (easier for me to pick up and be intentional about) (but [it's not a toy!](https://github.com/hangtwenty/dadaconf-livecoding-guide/issues/1)
 * Tidal for GETTIN' WEIRD and making cool drum patterns (more surprises)
 
 ## More resources
