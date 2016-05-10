@@ -154,8 +154,10 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
   * browser-based environment for livecoding OpenGL/WebGL Fragment shaders with some cool built-in functions for integrating with audio input
   * [examples](https://github.com/shawnlawson/The_Force_Workshop)
   * [more examples](https://github.com/shawnlawson/The_Force/tree/c3d7aa28cca1fd5e7f64a5809a649d95fda9ccc1/shaderExperiments)
-  * [examples from dadaconf 2.0](https://gist.github.com/kevincairo/40cdbc9758f546ac3a73728dce62216f)
-  * Great for a two person operation (or one human + pre-arranged audio)
+  * examples from dadaconf 0.1
+  	* by [kevincairo](https://github.com/kevincairo): [examples](https://gist.github.com/kevincairo/40cdbc9758f546ac3a73728dce62216f)
+  	* by [hangtwenty](https://github.com/hangtwenty): [examples](https://gist.github.com/hangtwenty/568cde2bf2e52f6a5c3982006ffa68ab) (sloppy)
+  * Great for a two person performance (one person on visuals, one on audio) (... or one human + pre-arranged audio) (... or one human, and only modifying the visuals occasionally, mainly performing audio)
 * [Shadertone](https://github.com/overtone/shadertone)
   * overtone + shadertoy!
   * Sounds a lot like The_Force but since it's not browser-based, it will take some more effort to get started (which may be worth it!)
