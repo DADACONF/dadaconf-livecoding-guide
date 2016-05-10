@@ -157,7 +157,8 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
   * examples from dadaconf 0.1
   	* by [kevincairo](https://github.com/kevincairo): [examples](https://gist.github.com/kevincairo/40cdbc9758f546ac3a73728dce62216f)
   	* by [hangtwenty](https://github.com/hangtwenty): [examples](https://gist.github.com/hangtwenty/568cde2bf2e52f6a5c3982006ffa68ab) (sloppy)
-  * Great for a two person performance (one person on visuals, one on audio) (... or one human + pre-arranged audio) (... or one human, and only modifying the visuals occasionally, mainly performing audio)
+  * **[THE BOOK OF SHADERS](http://thebookofshaders.com/)** is the most comprehensive single resource of examples around! Some examples may have different variable names and such, so these aren't just copy/paste examples. But if you want to get INTO IT and understand what you're doing, this book is your friend.
+  * The_Force is great for a two person performance (one person on visuals, one on audio) (... or one human + pre-arranged audio) (... or one human, and only modifying the visuals occasionally, mainly performing audio)
 * [Shadertone](https://github.com/overtone/shadertone)
   * overtone + shadertoy!
   * Sounds a lot like The_Force but since it's not browser-based, it will take some more effort to get started (which may be worth it!)
@@ -241,3 +242,7 @@ Now, let's react to it! The `bands` variable is a built-in `vec4` variable which
 We can then plug any of these components into the place of a `float` value in the program! For example, try replacing the `fgRatio` value with something like `bands.w` to make the `g` pattern pulse in on the bass thump!
 
 You can use microphone input too :)
+
+#### Lastly ...
+
+If you do get into playing with shaders, don't forget **[The Book of Shaders](http://thebookofshaders.com/)**!
