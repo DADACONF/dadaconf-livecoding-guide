@@ -151,7 +151,7 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
 
 ### Environments
 
-* **[The_Force](https://shawnlawson.github.io/The_Force/)** -- **make sure you use HTTPS,** at the time of writing Microphone Input will only work with HTTPS. You want that!!!
+* **[The_Force](https://shawnlawson.github.io/The_Force/)** ([sourcecode](https://github.com/shawnlawson/The_Force)) -- **make sure you use HTTPS,** at the time of writing Microphone Input will only work with HTTPS. You want that!!!
   * browser-based environment for livecoding OpenGL/WebGL Fragment shaders with some cool built-in functions for integrating with audio input
   * [examples](https://github.com/shawnlawson/The_Force_Workshop)
   * [more examples](https://github.com/shawnlawson/The_Force/tree/c3d7aa28cca1fd5e7f64a5809a649d95fda9ccc1/shaderExperiments)
