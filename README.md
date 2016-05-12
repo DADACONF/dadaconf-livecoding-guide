@@ -3,9 +3,7 @@
 This doc is for [a workshop at Dadaconf 0.1](http://dadaconf.com/workshops.html). Two topics:
 
 1. Livecoding to produce sound — by [hangtwenty](https://github.com/hangtwenty). Sonic Pi and such.
-2. [Livecoding to produce visuals](#livecoding-to-produce-visuals) — by [kevincairo](https://github.com/kevincairo). Shaders and such, including The_Force editor for livecoding visuals, that runs in your browser
-
-Both sections have options for in-browser stuff, and easy installation stuff :)
+2. [Livecoding to produce visuals](#livecoding-to-produce-visuals) — by [kevincairo](https://github.com/kevincairo). Shaders and such, including a editor+visualizer that runs in your browser and lets you code visuals that respond to sound/music
 
 # [Livecoding](https://en.wikipedia.org/wiki/Live_coding) to produce **sound**
 
