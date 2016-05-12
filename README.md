@@ -130,12 +130,11 @@ end
 * [livecodelab](http://livecodelab.net/play)
   * browser-based, super simple graphics and audio
   * start here if you just want to get pixels on the screen
-* [gibber](http://gibber.cc/)([docs](http://bigbadotis.gitbooks.io/gibber-user-manual/))
+* [gibber](http://gibber.cc/) ([docs](http://bigbadotis.gitbooks.io/gibber-user-manual/))
   * a browser-based js livecoding environment with 2D and 3D graphic support
   * you can generate audio and graphics and then map their properties to each other, such as the frequency or volume of a melody to the rotation or color of some cube
-* [fluxus](http://www.pawfal.org/Software/fluxus/)
+* [fluxus](http://www.pawfal.org/Software/fluxus/) ([docs](http://www.flossmanuals.net/fluxus/))
   * a game engine (i.e. does graphics, sound, user interaction) based on Racket (a lisp)
-  * good [docs](http://www.flossmanuals.net/fluxus/)
   * has [integration with DrScheme](http://en.flossmanuals.net/fluxus/ch024_fluxus-in-drscheme/) IDE
 
 ## Shaders
