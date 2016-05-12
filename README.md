@@ -1,8 +1,9 @@
 # Dadaconf, meet live-coding
 
-This doc is for [a workshop at Dadaconf 0.1](http://dadaconf.com/workshops.html). The workshop focuses on livecoding and using text-based environments to produce sound and music. We may also get into livecoding using text-based environments to produce visuals.
+This doc is for [a workshop at Dadaconf 0.1](http://dadaconf.com/workshops.html). Two topics:
 
-Sounds section is by [hangtwenty](https://github.com/hangtwenty) and the way cooler visuals section is by  [kevincairo](https://github.com/kevincairo).
+1. Livecoding to produce sound — by [hangtwenty](https://github.com/hangtwenty). Sonic Pi and such.
+2. [Livecoding to produce visuals](#livecoding-to-produce-visuals) — by [kevincairo](https://github.com/kevincairo). Shaders and such, including a editor+visualizer that runs in your browser and lets you code visuals that respond to sound/music
 
 # [Livecoding](https://en.wikipedia.org/wiki/Live_coding) to produce **sound**
 
@@ -16,7 +17,7 @@ You can bend a tool to your will, but more often, the tool guides your hand. Sur
 
 Personally, I'm not trying to perform pure livecode sets, but rather, learn livecoding as another instrument. You can get very fast at iterating and experimenting with text-livecoding. I'm interested in it as a studio tool, and a way to jam with friends. As a studio tool: because each interface has its own constraints, and constraints can inspire creativity (since "You can't have art without resistance in the material" — William Morris). To jam with friends: because it's fun!
 
-## Some music livecoding videos
+## Get fascinated with a couple music livecoding videos
 
 You can see a whole bunch here, [TOPLAP.org](http://toplap.org/); or here are a couple highlights:
 
@@ -26,6 +27,8 @@ You can see a whole bunch here, [TOPLAP.org](http://toplap.org/); or here are a 
 * Tidal:
   * [a promo video by yaxu, that I found easy to follow :)](https://youtu.be/au65p9oRJqI?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=125)
   * [more yaxu](https://youtu.be/FenTeBMkAsQ?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=186)
+
+Or for a very broad perspective, seek out stuff on [toplap wiki: "Videos, Articles and Papers"](http://toplap.org/wiki/Videos,_Articles_and_Papers)
 
 ## My recommendations
 
@@ -45,7 +48,7 @@ Here's an introduction that doesn't cover _everything_, but covers my personal i
 
 How I think of Sonic Pi vs. Tidal for my needs
 
-* Sonic Pi for a more malleable thing (easier for me to pick up and be intentional about)
+* Sonic Pi for a more malleable thing (easier for me to pick up and be intentional about) (but [it's not a toy!](https://github.com/hangtwenty/dadaconf-livecoding-guide/issues/1)
 * Tidal for GETTIN' WEIRD and making cool drum patterns (more surprises)
 
 ## More resources
@@ -127,12 +130,11 @@ end
 * [livecodelab](http://livecodelab.net/play)
   * browser-based, super simple graphics and audio
   * start here if you just want to get pixels on the screen
-* [gibber](http://gibber.cc/)([docs](http://bigbadotis.gitbooks.io/gibber-user-manual/))
+* [gibber](http://gibber.cc/) ([docs](http://bigbadotis.gitbooks.io/gibber-user-manual/))
   * a browser-based js livecoding environment with 2D and 3D graphic support
   * you can generate audio and graphics and then map their properties to each other, such as the frequency or volume of a melody to the rotation or color of some cube
-* [fluxus](http://www.pawfal.org/Software/fluxus/)
+* [fluxus](http://www.pawfal.org/Software/fluxus/) ([docs](http://www.flossmanuals.net/fluxus/))
   * a game engine (i.e. does graphics, sound, user interaction) based on Racket (a lisp)
-  * good [docs](http://www.flossmanuals.net/fluxus/)
   * has [integration with DrScheme](http://en.flossmanuals.net/fluxus/ch024_fluxus-in-drscheme/) IDE
 
 ## Shaders
@@ -147,10 +149,15 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
 
 ### Environments
 
-* [The_Force](http://shawnlawson.github.io/The_Force/)
+* **[The_Force](https://shawnlawson.github.io/The_Force/)** ([sourcecode](https://github.com/shawnlawson/The_Force)) -- **make sure you use HTTPS,** at the time of writing Microphone Input will only work with HTTPS. You want that!!!
   * browser-based environment for livecoding OpenGL/WebGL Fragment shaders with some cool built-in functions for integrating with audio input
   * [examples](https://github.com/shawnlawson/The_Force_Workshop)
-  * Great for a two person operation (or one human + pre-arranged audio)
+  * [more examples](https://github.com/shawnlawson/The_Force/tree/c3d7aa28cca1fd5e7f64a5809a649d95fda9ccc1/shaderExperiments)
+  * examples from dadaconf 0.1
+  	* by [kevincairo](https://github.com/kevincairo): [examples](https://gist.github.com/kevincairo/40cdbc9758f546ac3a73728dce62216f)
+  	* by [hangtwenty](https://github.com/hangtwenty): [examples](https://gist.github.com/hangtwenty/568cde2bf2e52f6a5c3982006ffa68ab) (sloppy)
+  * **[THE BOOK OF SHADERS](http://thebookofshaders.com/)** is the most comprehensive single resource of examples around! Some examples may have different variable names and such, so these aren't just copy/paste examples. But if you want to get INTO IT and understand what you're doing, this book is your friend.
+  * The_Force is great for a two person performance (one person on visuals, one on audio) (... or one human + pre-arranged audio) (... or one human, and only modifying the visuals occasionally, mainly performing audio)
 * [Shadertone](https://github.com/overtone/shadertone)
   * overtone + shadertoy!
   * Sounds a lot like The_Force but since it's not browser-based, it will take some more effort to get started (which may be worth it!)
@@ -162,7 +169,7 @@ So, in the simplest case, a shader is a very direct translation of the geometry 
 This is the moment _I_ have been waiting for. The_Force is the funnest way to produce visuals in my experience, but there are other options that may be worth exploring depending on synergies they might have with other technologies you are using.
 
 #### Example
-Let's start playing! Just copy the following snippet into [The_Force](http://shawnlawson.github.io/The_Force/) and it should start with a static pattern. Uncomment the commented code to change the variables and see the results. Hopefully you'll start to see the way the values are interacting to bring the expected results.
+Let's start playing! Just copy the following snippet into [The_Force](https://shawnlawson.github.io/The_Force/) and it should start with a static pattern. Uncomment the commented code to change the variables and see the results. Hopefully you'll start to see the way the values are interacting to bring the expected results.
 ```
 void main () {
     // the pixel position we're drawing (relative to bottom-left, width and height range from 0.0 to 1.0)
@@ -232,3 +239,9 @@ Now, let's react to it! The `bands` variable is a built-in `vec4` variable which
 * `bands.z` is the level of the high frequencies
 
 We can then plug any of these components into the place of a `float` value in the program! For example, try replacing the `fgRatio` value with something like `bands.w` to make the `g` pattern pulse in on the bass thump!
+
+You can use microphone input too :)
+
+#### Lastly ...
+
+If you do get into playing with shaders, don't forget **[The Book of Shaders](http://thebookofshaders.com/)**!
