@@ -19,7 +19,7 @@ You can bend a tool to your will, but more often, the tool guides your hand. Sur
 
 Personally, I'm not trying to perform pure livecode sets, but rather, learn livecoding as another instrument. You can get very fast at iterating and experimenting with text-livecoding. I'm interested in it as a studio tool, and a way to jam with friends. As a studio tool: because each interface has its own constraints, and constraints can inspire creativity (since "You can't have art without resistance in the material" — William Morris). To jam with friends: because it's fun!
 
-## Some music livecoding videos
+## Get fascinated with a couple music livecoding videos
 
 You can see a whole bunch here, [TOPLAP.org](http://toplap.org/); or here are a couple highlights:
 
@@ -29,6 +29,8 @@ You can see a whole bunch here, [TOPLAP.org](http://toplap.org/); or here are a 
 * Tidal:
   * [a promo video by yaxu, that I found easy to follow :)](https://youtu.be/au65p9oRJqI?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=125)
   * [more yaxu](https://youtu.be/FenTeBMkAsQ?list=PLCTmva6IpNvlSAAkeu_VRSgb07Nwbvz9n&t=186)
+
+Or for a very broad perspective, seek out stuff on [toplap wiki: "Videos, Articles and Papers"](http://toplap.org/wiki/Videos,_Articles_and_Papers)
 
 ## My recommendations
 
